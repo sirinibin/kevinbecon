@@ -1,28 +1,28 @@
 #####Installation:
 
->1.Clone the repo into your www or web directory. \n
+ 1. Clone the repo into your www or web directory
 
->2.Access it using your web browser<br/>
+ 2. Access it using your web browser
 
->3.You can input the below sample values into the text box.<br/>
+ 3. You can input the below sample values into the text box
 
-   >Bruce Willis,<br/>
+   ..* Bruce Willis,<br/>
 
-   >Tim Robbins,<br/>
+   ..* Tim Robbins,<br/>
 
-   >Tim Robbins,<br/>
+   ..* Tim Robbins,<br/>
 
-   >Robert Wagner<br/>
+   ..* Robert Wagner<br/>
 
-   >Cécile De France<br/>
+   ..* Cécile De France<br/>
 
-   >Eric Tsang<br/>
+   ..* Eric Tsang<br/>
 
-   >Morgan Freeman<br/>
+   ..* Morgan Freeman<br/>
 
-   >Chi Hung Ng<br/>
+   ..* Chi Hung Ng<br/>
 
-   >ddie Griffin<br/>
+   ..* Eddie Griffin<br/>
 
 
->Any problem setting up.. please email me sirinibin2006@gmail..com<br/>
+4. Any problem setting up.. please email me sirinibin2006@gmail..com<br/>
