@@ -32,8 +32,10 @@ class Kevin
         $this->setFiles();
 
     }
+
     //run
-    public function run($actorName){
+    public function run($actorName)
+    {
 
         $this->actor = $this->setActor($actorName);
         if (!$this->actor) {
@@ -41,7 +43,7 @@ class Kevin
             $this->printError();
             return false;
         }
-        if($actorName=="Kevin Bacon"){
+        if ($actorName == "Kevin Bacon") {
             $this->errorMessage = "Please enter a different actor name other than 'Kevin Bacon'";
             $this->printError();
             return false;
@@ -54,7 +56,7 @@ class Kevin
 
             $this->path[] = $result['kevin'];
             $this->found = true;
-           // return true;
+            // return true;
 
         } else {
 
@@ -268,6 +270,7 @@ class Kevin
     {
         echo "<br/>" . $this->errorMessage;
     }
+
     //print output
     public function printOutput()
     {
@@ -276,7 +279,7 @@ class Kevin
         //print_r($this->path);
 
 
-        if(is_array($this->path)&&count($this->path)>0){
+        if (is_array($this->path) && count($this->path) > 0) {
             echo "<table border='1' >";
 
             echo "<tr rowspan='2' >";
@@ -289,40 +292,47 @@ class Kevin
 
 
     }
-     private function  printColumn($path){
-         if(!isset($path['name']))
-             return;
 
-         echo "
-             <td width='100'  ><img src='".$path['image']."'><br/>".$path['name']."</td>
-            ";
+    private function  printColumn($path)
+    {
+        if (!isset($path['name']))
+            return;
 
+        echo "<td width='100'  >";
+        
+        if(isset($path['image'])){
 
-         if(isset($path['film'])){
+            echo "<img src='" . $path['image'] . "'><br/>";
+        }
 
-             echo "<td><b>==></b></td>";
+        echo  $path['name'];
 
-             echo "<td width='100' >";
-             if(isset($path['film_image'])){
-
-
-                 echo "<img src='".$path['film_image']."'>";
-             }
-
-             echo "<br/>".$path['film']."[file:".$path['filename']."]";
-         }
-         echo "</td>";
+        echo "</td>";
 
 
-         if(isset($path['connected_from'])){
+        if (isset($path['film'])) {
 
-             echo "<td><b>==></b></td>";
-             $this->printColumn($path['connected_from']);
-         }
+            echo "<td><b>==></b></td>";
+
+            echo "<td width='100' >";
+            if (isset($path['film_image'])) {
 
 
+                echo "<img src='" . $path['film_image'] . "'>";
+            }
+
+            echo "<br/>" . $path['film'] . "[file:" . $path['filename'] . "]";
+        }
+        echo "</td>";
 
 
-     }
+        if (isset($path['connected_from'])) {
+
+            echo "<td><b>==></b></td>";
+            $this->printColumn($path['connected_from']);
+        }
+
+
+    }
 
 }

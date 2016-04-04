@@ -6,23 +6,23 @@
 
  3. You can input the below sample values into the text box
 
-   ..* Bruce Willis,<br/>
+   ..* Bruce Willis,
 
-   ..* Tim Robbins,<br/>
+   ..* Tim Robbins,
 
-   ..* Tim Robbins,<br/>
+   ..* Tim Robbins,
 
-   ..* Robert Wagner<br/>
+   ..* Robert Wagner,
 
-   ..* Cécile De France<br/>
+   ..* Cécile De France,
 
-   ..* Eric Tsang<br/>
+   ..* Eric Tsang,
 
-   ..* Morgan Freeman<br/>
+   ..* Morgan Freeman,
 
-   ..* Chi Hung Ng<br/>
+   ..* Chi Hung Ng,
 
-   ..* Eddie Griffin<br/>
+   ..* Eddie Griffin,
 
 
 4. Any problem setting up.. please email me sirinibin2006@gmail..com<br/>
