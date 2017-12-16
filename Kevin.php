@@ -299,7 +299,7 @@ class Kevin
             return;
 
         echo "<td width='100'  >";
-        
+
         if(isset($path['image'])){
 
             echo "<img src='" . $path['image'] . "'><br/>";
